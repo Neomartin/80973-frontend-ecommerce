@@ -11,25 +11,18 @@ function ProductDetail() {
   const { id } = useParams();
 
   async function getProductById() {
+    // Lógica para obtener el producto por ID (puede ser una llamada a una API)
     try {
-      const response = await axios.get(`${URL}/products/${id}`);
-      setProduct( response.data );
-
+      // Completar con la lógica para obtener el producto por ID
     } catch (error) {
-      console.log(error);
-
-      Swal.fire({
-        icon: "error",
-        title: "Error",
-        text: "Hubo un error al obtener el producto",
-      })
+      // Manejo de errores
     }
   }
 
 
   useEffect(() => {
 
-    getProductById()
+    // Lógica que quiero que se ejecute al montar el componente
 
   }, [])
 

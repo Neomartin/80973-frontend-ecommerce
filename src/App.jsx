@@ -29,6 +29,8 @@ function App() {
 
           <Route path="/admin/products" element={ <AdminProducts /> }   />
 
+          <Route path="*" element={ <h2>404 - Página no encontrada</h2> }   />
+
         </Routes>
 
       </main>

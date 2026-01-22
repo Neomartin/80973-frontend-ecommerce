@@ -55,8 +55,6 @@ function AdminProducts() {
         icon: "success",
         title: "Producto creado",
         text: `El producto ${response.data.name} fue creado correctamente`,
-        toast: true,
-        position: "top-right",
         timer: 2000
       })
 
