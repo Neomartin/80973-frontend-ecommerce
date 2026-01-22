@@ -15,7 +15,7 @@ function App() {
       <Header />
 
 
-      <main>
+      <main className="main-container">
         
         <Routes>
 

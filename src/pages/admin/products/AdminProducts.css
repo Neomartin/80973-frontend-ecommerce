@@ -1,0 +1,8 @@
+.admin-products {
+  display: grid;
+  grid-template-columns:  340px 1fr;
+
+  .products-form {
+    padding: 0 2rem;
+  }
+}
